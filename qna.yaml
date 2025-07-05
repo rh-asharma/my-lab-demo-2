@@ -75,6 +75,6 @@ document_outline: |
   Some info about Amit Demo for Ilab
 document:
   repo: https://github.com/rh-asharma/my-lab-demo-2
-  commit: 217ab79b4c202a61e00a7dfd164b29f15e5e9412
+  commit: 8561401bd3fac0dd300dcdbf3f1be52f6dddd742
   patterns:
     - data.md
