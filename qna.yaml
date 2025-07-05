@@ -1,0 +1,80 @@
+version: 3
+created_by: Assistant
+domain: Environmental Policy and Urban Governance
+seed_examples:
+  - context: |
+      The Delhi government implemented a fuel ban on old vehicles starting July 1, 2025, prohibiting petrol stations from dispensing fuel to diesel vehicles older than 10 years and petrol vehicles older than 15 years. This policy was enforced by the Commission for Air Quality Management (CAQM) to reduce vehicular pollution in the National Capital Region. The ban affected over 62 lakh vehicles across Delhi, including cars, motorcycles, trucks, and other vehicles, regardless of their registration state.
+    questions_and_answers:
+      - question: When did the Delhi fuel ban on old vehicles come into effect?
+        answer: The Delhi fuel ban on old vehicles came into effect on July 1, 2025.
+      - question: Which vehicles were affected by the fuel ban policy?
+        answer: The policy affected diesel vehicles older than 10 years and petrol vehicles older than 15 years, totaling over 62 lakh vehicles in Delhi.
+      - question: What was the primary objective of implementing the fuel ban?
+        answer: The primary objective was to reduce vehicular pollution and improve air quality in Delhi by removing End-of-Life vehicles from circulation.
+      - question: Which authority was responsible for enforcing the fuel ban?
+        answer: The Commission for Air Quality Management (CAQM) was responsible for enforcing the fuel ban policy.
+      - question: Did the ban apply only to Delhi-registered vehicles?
+        answer: No, the ban applied to all vehicles regardless of their state of registration, affecting any vehicle operating in Delhi that exceeded the age limits.
+
+  - context: |
+      The fuel ban enforcement involved equipping over 400 petrol pumps across Delhi with special cameras and Automatic Number Plate Recognition (ANPR) systems to identify vehicles that exceeded the prescribed age limits. Petrol pump staff were instructed not to dispense fuel to vehicles older than the specified limits, with fuel stations facing potential legal action for violations. Government teams were also deployed to identify and seize non-compliant vehicles found on roads.
+    questions_and_answers:
+      - question: How many petrol pumps were equipped with monitoring systems for the fuel ban?
+        answer: Over 400 petrol pumps across Delhi were equipped with special cameras and ANPR systems to identify age-exceeded vehicles.
+      - question: What technology was used to identify vehicles exceeding age limits?
+        answer: Special cameras and Automatic Number Plate Recognition (ANPR) systems were used to identify vehicles that exceeded the prescribed age limits.
+      - question: What consequences did fuel stations face for violating the ban?
+        answer: Fuel stations that violated the ban by providing fuel to old vehicles could face legal action from the authorities.
+      - question: What additional enforcement measures were taken beyond petrol pump monitoring?
+        answer: Government teams were deployed to identify and seize End-of-Life vehicles found operating on roads in violation of the ban.
+      - question: What were petrol pump staff instructed to do regarding old vehicles?
+        answer: Petrol pump staff were instructed not to dispense fuel to vehicles that exceeded the age limits of 10 years for diesel and 15 years for petrol vehicles.
+
+  - context: |
+      The fuel ban policy was based on a 2014 National Green Tribunal (NGT) order that was upheld by the Supreme Court in 2018, which prohibited the operation of diesel vehicles over 10 years old and petrol vehicles over 15 years old in Delhi-NCR. The policy was part of a broader effort to combat Delhi's severe air pollution problem, as the city is regularly ranked among the most polluted capitals globally, with vehicular emissions being a major contributor to the deteriorating air quality.
+    questions_and_answers:
+      - question: What was the legal basis for the Delhi fuel ban on old vehicles?
+        answer: The ban was based on a 2014 National Green Tribunal (NGT) order that was upheld by the Supreme Court in 2018, prohibiting old vehicles in Delhi-NCR.
+      - question: Why is vehicular pollution a significant concern in Delhi?
+        answer: Delhi is regularly ranked among the most polluted capitals globally, with vehicular emissions being a major contributor to the city's deteriorating air quality.
+      - question: What specific court orders supported the implementation of the fuel ban?
+        answer: The policy was supported by a 2014 NGT order that was later upheld by the Supreme Court in 2018, specifically targeting old vehicles in Delhi-NCR.
+      - question: How does the fuel ban fit into Delhi's broader environmental strategy?
+        answer: The fuel ban was part of a comprehensive effort to combat Delhi's severe air pollution problem by targeting one of the major sources of emissions.
+      - question: What age limits for vehicles were established by the court orders?
+        answer: The court orders established that diesel vehicles over 10 years old and petrol vehicles over 15 years old should not operate in Delhi-NCR.
+
+  - context: |
+      Just two days after implementation, the Delhi government suspended the fuel ban on July 3, 2025, following widespread public backlash and technical challenges. Officials cited the enforcement as "disproportionate and unreasonable" and acknowledged that the policy was not practically feasible in its current form. The suspension was announced after numerous complaints from vehicle owners who faced difficulties and the realization that the adjacent districts lacked the necessary ANPR infrastructure for comprehensive enforcement.
+    questions_and_answers:
+      - question: How long did the fuel ban remain in effect before being suspended?
+        answer: The fuel ban was suspended after just two days of implementation, on July 3, 2025, following public backlash and technical challenges.
+      - question: What were the main reasons for suspending the fuel ban?
+        answer: The ban was suspended due to widespread public backlash, technical challenges, and officials recognizing the enforcement as "disproportionate and unreasonable."
+      - question: What technical challenges contributed to the suspension of the policy?
+        answer: The main technical challenge was that adjacent districts lacked the necessary ANPR infrastructure for comprehensive enforcement of the ban.
+      - question: How did the public react to the implementation of the fuel ban?
+        answer: The public reacted with widespread backlash and numerous complaints from vehicle owners who faced difficulties due to the policy.
+      - question: What did officials acknowledge about the policy's feasibility?
+        answer: Officials acknowledged that the policy was not practically feasible in its current form and that the enforcement measures were disproportionate and unreasonable.
+
+  - context: |
+      Following the suspension, Delhi government officials announced plans to develop a more balanced approach to pollution control and promised to come out with a new policy. The fuel ban is expected to be reconsidered and potentially reimplemented after November 1, 2025, once fuel stations in adjacent districts are equipped with ANPR systems. This timeline would allow for better coordination across the National Capital Region and more comprehensive enforcement of End-of-Life vehicle policies.
+    questions_and_answers:
+      - question: When might the fuel ban be reimplemented in Delhi?
+        answer: The fuel ban might be reimplemented after November 1, 2025, once fuel stations in adjacent districts are equipped with ANPR systems.
+      - question: What did the government promise following the suspension of the fuel ban?
+        answer: The government promised to develop a more balanced approach to pollution control and come out with a new policy for managing old vehicles.
+      - question: What infrastructure development is planned before reimplementing the ban?
+        answer: ANPR systems are planned to be installed at fuel stations in adjacent districts before reimplementing the ban for better regional coordination.
+      - question: How will the new approach differ from the original implementation?
+        answer: The new approach is expected to be more balanced and comprehensive, with better coordination across the National Capital Region rather than focusing only on Delhi.
+      - question: What is the significance of the November 2025 timeline for the policy?
+        answer: The November 2025 timeline allows for the completion of ANPR infrastructure in adjacent districts, enabling more effective and fair enforcement of the End-of-Life vehicle policy across the region.
+document_outline: |
+  Some info about Amit Demo for Ilab
+document:
+  repo: https://github.com/rh-asharma/my-lab-demo-2
+  commit: 217ab79b4c202a61e00a7dfd164b29f15e5e9412
+  patterns:
+    - data.md
